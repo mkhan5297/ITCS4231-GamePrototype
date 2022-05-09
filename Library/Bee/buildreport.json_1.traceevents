@@ -1,0 +1,524 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1652130016098781, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130016099726, "dur": 11578, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130016111462, "dur": 27850, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130016139330, "dur": 592124, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130016731455, "dur": 3971706, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130020703173, "dur": 10003, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130041144137, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130041144308, "dur": 898, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130041145207, "dur": 22290, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130041167498, "dur": 371511, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130041539010, "dur": 1530, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130154820478, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130154820491, "dur": 9897, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130154830389, "dur": 93350, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130154923741, "dur": 9736, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130157188375, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130157188392, "dur": 1526, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130157189919, "dur": 21049, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130157210969, "dur": 179934, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130157390905, "dur": 647575, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130158038481, "dur": 662, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130158039451, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1652130157278774, "dur": 103739, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157279517, "dur": 29764, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157371164, "dur": 3346, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157374512, "dur": 7996, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157374999, "dur": 6999, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157385681, "dur": 923, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1652130157385107, "dur": 1511, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130158039525, "dur": 130, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1652130157423278, "dur":967, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130157424251, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652130157424284, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652130157424296, "dur":302, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652130157424616, "dur":420, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130157425036, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032003, "dur":154, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032157, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032168, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032169, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032180, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032181, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032188, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032189, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032196, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032196, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032201, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032201, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032205, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032206, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032210, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032211, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032214, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032215, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032219, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032219, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032223, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032224, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032227, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032228, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032232, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032241, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158032282, "dur":1164, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652130157424643, "dur":397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157425041, "dur":3348, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157428403, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652130157428406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157429226, "dur":318, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652130157429545, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652130157429595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157429759, "dur":6564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652130157436325, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652130157436454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157436797, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1652130157438528, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1652130157438618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157438622, "dur":60688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1652130157499356, "dur":70256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1652130157569615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157569620, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1652130157571724, "dur":22331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157594058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157594064, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157595515, "dur":13787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157609305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157609311, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157612085, "dur":13464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157625555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157625563, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157627081, "dur":27605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157654690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157654697, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157655673, "dur":28678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157684355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157684361, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157687436, "dur":28154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157715593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157715601, "dur":4023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157719767, "dur":37384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157757154, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157757171, "dur":8055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157765269, "dur":47728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157813000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157813007, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157813923, "dur":50458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157864387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157864396, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157865427, "dur":33576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157899008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130157899017, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130157900057, "dur":130196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130158030257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652130158030263, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652130158031981, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1652130158031983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157424662, "dur":382, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157425044, "dur":3351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157428403, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1652130157428533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157430204, "dur":6307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1652130157436560, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1652130157436815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157436860, "dur":250726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1652130157687635, "dur":33100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157720739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157720751, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157723977, "dur":86741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157810721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157810729, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157812189, "dur":59843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157872035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157872041, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157873393, "dur":80993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157954390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652130157954399, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652130157955518, "dur":76493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157424680, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157425047, "dur":3348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157428404, "dur":8666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652130157437073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157437101, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1652130157439026, "dur":110699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157549728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157549901, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157552167, "dur":20147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157572318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157572324, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157573151, "dur":18882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157592036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157592042, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157593334, "dur":15383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157608720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157608726, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157610429, "dur":93769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157704202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157704210, "dur":10161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157714415, "dur":32975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157747394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157747401, "dur":20516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157767957, "dur":167194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157935153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157935160, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652130157936611, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652130157936653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157936658, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652130157939665, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652130157939709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157939714, "dur":5234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652130157944985, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652130157945026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157945030, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652130157946154, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1652130157946193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652130157946197, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1652130157948349, "dur":83650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157424695, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157425051, "dur":3347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157428402, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652130157428549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157429959, "dur":240783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1652130157670787, "dur":24216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157695006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157695012, "dur":10415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157705474, "dur":64727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157770205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157770211, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157771122, "dur":153165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157924292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157924301, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652130157926686, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1652130157926759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157926825, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1652130157927823, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652130157927862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157927866, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652130157930541, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1652130157930579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157930584, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1652130157932163, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652130157932214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652130157932218, "dur":19822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1652130157952081, "dur":79931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157424710, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157425055, "dur":3339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157428404, "dur":19931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652130157448341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157448598, "dur":50851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1652130157499493, "dur":69072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157568569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157568877, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157570478, "dur":23013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157593494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157593500, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157594430, "dur":36555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157630988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157630995, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157631859, "dur":63045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157694908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157694914, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157698417, "dur":21454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157719874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157719948, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157721403, "dur":17818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157739241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157739247, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157741523, "dur":30093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157771635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157771642, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157773580, "dur":93911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157867495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157867503, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157868406, "dur":70309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157938718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157938724, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652130157940589, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1652130157940633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157940639, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1652130157942608, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652130157942653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157942657, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652130157944796, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1652130157944840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157944844, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1652130157945912, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652130157945960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157945964, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652130157947236, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1652130157947364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652130157947368, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1652130157948663, "dur":83337, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157424724, "dur":334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157425058, "dur":3340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157428404, "dur":6829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652130157435236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157435247, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652130157436532, "dur":5363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652130157441898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157441905, "dur":57481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652130157499423, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1652130157499526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157499748, "dur":71602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1652130157571392, "dur":21025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157592421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157592447, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157593647, "dur":15232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157608882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157608888, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157611599, "dur":87005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157698607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157698644, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157700197, "dur":41967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157742167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157742173, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157742980, "dur":71134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157814134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157814174, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157815612, "dur":61078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157876694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157876700, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157877631, "dur":29238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157906872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130157906879, "dur":6953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130157913877, "dur":99411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130158013295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652130158013326, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652130158014475, "dur":17526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157424741, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157425061, "dur":3338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157428403, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1652130157428549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157430104, "dur":8322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1652130157438467, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1652130157438559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157438565, "dur":61116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1652130157499710, "dur":68601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157568317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157568888, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157571010, "dur":20668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157591683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157591692, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157592796, "dur":15330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157608130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157608137, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157609309, "dur":26577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157635889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157635896, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157636833, "dur":12506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157649345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157649356, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157650426, "dur":21401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157671830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157671836, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157673199, "dur":13610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157686812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157686818, "dur":3845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157690701, "dur":15683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157706387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157706441, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157708684, "dur":29811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157738498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157738504, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157739592, "dur":12706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157752301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157752326, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157754382, "dur":76877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157831263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157831269, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157832221, "dur":106854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157939078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157939084, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652130157940594, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1652130157940705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157940710, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1652130157941716, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1652130157942459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157942464, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1652130157943517, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1652130157943558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157943562, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1652130157946755, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1652130157946795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652130157946799, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1652130157948133, "dur":83867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652130157424756, "dur":308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652130157425064, "dur":3338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652130157428403, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1652130157428602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652130157430233, "dur":9831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1652130157440111, "dur":507319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652130157947433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652130157947438, "dur":10544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652130157958029, "dur":73980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157424775, "dur":292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157425067, "dur":3345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157428412, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1652130157428610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157431953, "dur":241233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1652130157673228, "dur":13619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157686851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157686857, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157688948, "dur":27557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157716508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157716514, "dur":4313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157720873, "dur":21076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157741952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157741987, "dur":5915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157747946, "dur":53358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157801309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157801318, "dur":8031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157809389, "dur":97424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157906817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157906825, "dur":7137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157914002, "dur":69925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157983930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652130157983937, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652130157984713, "dur":47290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157424792, "dur":277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157425069, "dur":3335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157428404, "dur":6692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652130157435098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157435109, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1652130157436460, "dur":5813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1652130157442276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157442281, "dur":57123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1652130157499438, "dur":69874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157569316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157569715, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157570964, "dur":22938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157593905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157593911, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157594951, "dur":40785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157635739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157635746, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157637654, "dur":31950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157669608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157669615, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157670659, "dur":13583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157684247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157684256, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157687654, "dur":17641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157705299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157705312, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157706351, "dur":14816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157721170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157721176, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157722031, "dur":16747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157738781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157738788, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157740635, "dur":14224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157754862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157754868, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157756171, "dur":16472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157772646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157772652, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157773467, "dur":40925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157814395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157814401, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157815389, "dur":36430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157851824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157851834, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157852969, "dur":107127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157960099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652130157960106, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652130157961907, "dur":70098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157424811, "dur":261, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157425072, "dur":3328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157428404, "dur":5966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1652130157434373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157434384, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1652130157436509, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652130157436771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157436836, "dur":62517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652130157499413, "dur":76523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1652130157575975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157575980, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1652130157577392, "dur":24860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157602257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157602265, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157603877, "dur":29563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157633446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157635243, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157636416, "dur":27069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157663489, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157663498, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157664625, "dur":21367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157685995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157686001, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157688010, "dur":33025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157721038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157722035, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157723582, "dur":13768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157737355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157737365, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157738585, "dur":13365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157751954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157751968, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157754388, "dur":22368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157776760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157776767, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157777781, "dur":90903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157868687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157868693, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157869718, "dur":72031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157941782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157941787, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652130157944084, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652130157944132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157944136, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652130157945340, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1652130157945402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157945406, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1652130157946293, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1652130157946339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652130157946343, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1652130157947838, "dur":84164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157424826, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157425075, "dur":3321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157428403, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1652130157428608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157430612, "dur":8346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1652130157439003, "dur":130711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157569717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157569785, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157572065, "dur":56772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157628841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157628849, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157630172, "dur":31889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157662066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157662073, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157663017, "dur":15479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157678522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157678541, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157679740, "dur":14087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157693831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157693838, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157698378, "dur":16004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157714385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157714393, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157715329, "dur":23569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157738900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157738905, "dur":4356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157743306, "dur":25246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157768555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157768564, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157769500, "dur":60842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157830346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157830354, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157831266, "dur":21391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157852661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157852668, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157853636, "dur":105239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157958878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652130157958885, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/manso/Documents/Unity/Mango's Great Escape/Game Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652130157960340, "dur":71667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652130158034896, "dur":1272, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1652130158039700, "dur": 521, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1652130158039442, "dur": 794, "ph": "X", "name": "Write chrome-trace events", "args": {} },
